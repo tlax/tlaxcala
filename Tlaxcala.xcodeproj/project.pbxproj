@@ -37,6 +37,7 @@
 		DA83A80B1ECA0D6E002AE72D /* CController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83A8081ECA0D6E002AE72D /* CController.swift */; };
 		DA83A80C1ECA0D6E002AE72D /* CParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83A8091ECA0D6E002AE72D /* CParent.swift */; };
 		DA83A80E1ECA0D8C002AE72D /* CHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83A80D1ECA0D8C002AE72D /* CHome.swift */; };
+		DA83A8111ECA0DC1002AE72D /* VHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83A8101ECA0DC1002AE72D /* VHome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 		DA83A8081ECA0D6E002AE72D /* CController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CController.swift; sourceTree = "<group>"; };
 		DA83A8091ECA0D6E002AE72D /* CParent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CParent.swift; sourceTree = "<group>"; };
 		DA83A80D1ECA0D8C002AE72D /* CHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHome.swift; sourceTree = "<group>"; };
+		DA83A8101ECA0DC1002AE72D /* VHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VHome.swift; sourceTree = "<group>"; };
 		DAA0A0281ECA07B200847E46 /* Tlaxcala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tlaxcala.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -154,6 +156,7 @@
 		DA83A7DC1ECA0ABA002AE72D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DA83A80F1ECA0DB8002AE72D /* Home */,
 				DA83A7DD1ECA0ABA002AE72D /* Main */,
 			);
 			path = View;
@@ -192,6 +195,14 @@
 				DA83A8091ECA0D6E002AE72D /* CParent.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		DA83A80F1ECA0DB8002AE72D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DA83A8101ECA0DC1002AE72D /* VHome.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		DAA0A01F1ECA07B200847E46 = {
@@ -322,6 +333,7 @@
 				DA83A7FE1ECA0ABA002AE72D /* VCollection.swift in Sources */,
 				DA83A8021ECA0ABA002AE72D /* VSpinner.swift in Sources */,
 				DA83A7F01ECA0ABA002AE72D /* ExtensionNSLayoutConstraint.swift in Sources */,
+				DA83A8111ECA0DC1002AE72D /* VHome.swift in Sources */,
 				DA83A7F81ECA0ABA002AE72D /* MSession.swift in Sources */,
 				DA83A7F61ECA0ABA002AE72D /* ExtensionURL.swift in Sources */,
 			);
