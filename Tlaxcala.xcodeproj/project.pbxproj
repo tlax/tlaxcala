@@ -19,7 +19,6 @@
 		DA83A7F41ECA0ABA002AE72D /* ExtensionUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83A7D11ECA0ABA002AE72D /* ExtensionUIColor.swift */; };
 		DA83A7F51ECA0ABA002AE72D /* ExtensionUIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83A7D21ECA0ABA002AE72D /* ExtensionUIFont.swift */; };
 		DA83A7F61ECA0ABA002AE72D /* ExtensionURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83A7D31ECA0ABA002AE72D /* ExtensionURL.swift */; };
-		DA83A7F71ECA0ABA002AE72D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA83A7D41ECA0ABA002AE72D /* Info.plist */; };
 		DA83A7F81ECA0ABA002AE72D /* MSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83A7D71ECA0ABA002AE72D /* MSession.swift */; };
 		DA83A7F91ECA0ABA002AE72D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA83A7D91ECA0ABA002AE72D /* Localizable.strings */; };
 		DA83A7FA1ECA0ABA002AE72D /* ResourceURL.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA83A7DB1ECA0ABA002AE72D /* ResourceURL.plist */; };
@@ -298,7 +297,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA83A7F71ECA0ABA002AE72D /* Info.plist in Resources */,
 				DA83A7F91ECA0ABA002AE72D /* Localizable.strings in Resources */,
 				DA83A7FA1ECA0ABA002AE72D /* ResourceURL.plist in Resources */,
 				DA83A7E81ECA0ABA002AE72D /* LaunchScreen.storyboard in Resources */,
