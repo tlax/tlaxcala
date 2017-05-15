@@ -38,6 +38,7 @@
 		DA83A80E1ECA0D8C002AE72D /* CHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83A80D1ECA0D8C002AE72D /* CHome.swift */; };
 		DA83A8111ECA0DC1002AE72D /* VHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83A8101ECA0DC1002AE72D /* VHome.swift */; };
 		DA83A8141ECA0EA9002AE72D /* DTlaxcala.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA83A8121ECA0EA9002AE72D /* DTlaxcala.xcdatamodeld */; };
+		DA83A8161ECA0FD4002AE72D /* DManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83A8151ECA0FD4002AE72D /* DManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		DA83A80D1ECA0D8C002AE72D /* CHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHome.swift; sourceTree = "<group>"; };
 		DA83A8101ECA0DC1002AE72D /* VHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VHome.swift; sourceTree = "<group>"; };
 		DA83A8131ECA0EA9002AE72D /* DTlaxcala.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DTlaxcala.xcdatamodel; sourceTree = "<group>"; };
+		DA83A8151ECA0FD4002AE72D /* DManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DManager.swift; sourceTree = "<group>"; };
 		DAA0A0281ECA07B200847E46 /* Tlaxcala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tlaxcala.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -108,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				DA83A8121ECA0EA9002AE72D /* DTlaxcala.xcdatamodeld */,
+				DA83A8151ECA0FD4002AE72D /* DManager.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 				DA83A7EC1ECA0ABA002AE72D /* ExtensionDictionary.swift in Sources */,
 				DA83A7EE1ECA0ABA002AE72D /* ExtensionMKAnnotationView.swift in Sources */,
 				DA83A7FE1ECA0ABA002AE72D /* VCollection.swift in Sources */,
+				DA83A8161ECA0FD4002AE72D /* DManager.swift in Sources */,
 				DA83A8021ECA0ABA002AE72D /* VSpinner.swift in Sources */,
 				DA83A7F01ECA0ABA002AE72D /* ExtensionNSLayoutConstraint.swift in Sources */,
 				DA83A8141ECA0EA9002AE72D /* DTlaxcala.xcdatamodeld in Sources */,

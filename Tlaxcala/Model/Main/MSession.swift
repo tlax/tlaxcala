@@ -4,18 +4,9 @@ class MSession
 {
     static let sharedInstance:MSession = MSession()
     private(set) var settings:DSettings?
-    private(set) var handler:String?
-    private(set) var level:Int
-    private(set) var score:Int
-    private(set) var active:Bool
-    private let kScoreLevelRatio:Int = 100
-    private let kReleaseVirusDivider:Int = 2
     
     private init()
     {
-        level = 0
-        score = 0
-        active = true
     }
     
     //MARK: private
@@ -262,58 +253,5 @@ class MSession
         {
             self.asyncLoadSession()
         }
-    }
-    
-    func addScore(credits:Int)
-    {
-        guard
-            
-            let userPath:String = firebasePath()
-        
-        else
-        {
-            return
-        }
-        
-        score += credits
-        
-        let path:String = "\(userPath)/\(FDbUserItem.score)"
-        FMain.sharedInstance.db.updateChild(
-            path:path,
-            json:score)
-        
-        DispatchQueue.global(qos:DispatchQoS.QoSClass.background).async
-        {
-            self.tryLevelUp()
-        }
-    }
-    
-    func updateHandler(handler:String)
-    {
-        guard
-            
-            let userPath:String = firebasePath()
-            
-        else
-        {
-            return
-        }
-        
-        self.handler = handler
-        
-        let path:String = "\(userPath)/\(FDbUserItem.handler)"
-        FMain.sharedInstance.db.updateChild(
-            path:path,
-            json:handler)
-    }
-    
-    func releaseVirus(energyRequired:Int16)
-    {
-        let scoreEarned:Int = Int(energyRequired) / kReleaseVirusDivider
-        
-        addScore(credits:scoreEarned)
-        settings?.energy?.spendEnergy(
-            energyCost:energyRequired)
-        settings?.stats?.virusReleaseSuccess()
     }
 }
