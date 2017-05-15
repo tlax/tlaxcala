@@ -36,6 +36,7 @@
 		DA83A80A1ECA0D6E002AE72D /* CAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83A8071ECA0D6E002AE72D /* CAppDelegate.swift */; };
 		DA83A80B1ECA0D6E002AE72D /* CController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83A8081ECA0D6E002AE72D /* CController.swift */; };
 		DA83A80C1ECA0D6E002AE72D /* CParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83A8091ECA0D6E002AE72D /* CParent.swift */; };
+		DA83A80E1ECA0D8C002AE72D /* CHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83A80D1ECA0D8C002AE72D /* CHome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		DA83A8071ECA0D6E002AE72D /* CAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAppDelegate.swift; sourceTree = "<group>"; };
 		DA83A8081ECA0D6E002AE72D /* CController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CController.swift; sourceTree = "<group>"; };
 		DA83A8091ECA0D6E002AE72D /* CParent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CParent.swift; sourceTree = "<group>"; };
+		DA83A80D1ECA0D8C002AE72D /* CHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHome.swift; sourceTree = "<group>"; };
 		DAA0A0281ECA07B200847E46 /* Tlaxcala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tlaxcala.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -177,6 +179,7 @@
 		DA83A8051ECA0D6E002AE72D /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				DA83A80D1ECA0D8C002AE72D /* CHome.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				DA83A7FC1ECA0ABA002AE72D /* VBlur.swift in Sources */,
 				DA83A7FF1ECA0ABA002AE72D /* VCollectionFlow.swift in Sources */,
 				DA83A7F41ECA0ABA002AE72D /* ExtensionUIColor.swift in Sources */,
+				DA83A80E1ECA0D8C002AE72D /* CHome.swift in Sources */,
 				DA83A8041ECA0ABA002AE72D /* VView.swift in Sources */,
 				DA83A7F31ECA0ABA002AE72D /* ExtensionUICollectionReusableView.swift in Sources */,
 				DA83A7EC1ECA0ABA002AE72D /* ExtensionDictionary.swift in Sources */,
