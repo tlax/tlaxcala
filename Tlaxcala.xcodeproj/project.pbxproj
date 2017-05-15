@@ -40,6 +40,7 @@
 		DA83A8141ECA0EA9002AE72D /* DTlaxcala.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA83A8121ECA0EA9002AE72D /* DTlaxcala.xcdatamodeld */; };
 		DA83A8161ECA0FD4002AE72D /* DManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83A8151ECA0FD4002AE72D /* DManager.swift */; };
 		DA83A8181ECA1039002AE72D /* DSettingsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83A8171ECA1039002AE72D /* DSettingsExtension.swift */; };
+		DA83A81A1ECA123D002AE72D /* VHomeBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83A8191ECA123D002AE72D /* VHomeBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +78,7 @@
 		DA83A8131ECA0EA9002AE72D /* DTlaxcala.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DTlaxcala.xcdatamodel; sourceTree = "<group>"; };
 		DA83A8151ECA0FD4002AE72D /* DManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DManager.swift; sourceTree = "<group>"; };
 		DA83A8171ECA1039002AE72D /* DSettingsExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSettingsExtension.swift; sourceTree = "<group>"; };
+		DA83A8191ECA123D002AE72D /* VHomeBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VHomeBar.swift; sourceTree = "<group>"; };
 		DAA0A0281ECA07B200847E46 /* Tlaxcala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tlaxcala.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -209,6 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				DA83A8101ECA0DC1002AE72D /* VHome.swift */,
+				DA83A8191ECA123D002AE72D /* VHomeBar.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				DA83A7ED1ECA0ABA002AE72D /* ExtensionFileManager.swift in Sources */,
 				DA83A7F11ECA0ABA002AE72D /* ExtensionNSManagedObject.swift in Sources */,
 				DA83A7EF1ECA0ABA002AE72D /* ExtensionNotification.swift in Sources */,
+				DA83A81A1ECA123D002AE72D /* VHomeBar.swift in Sources */,
 				DA83A7FB1ECA0ABA002AE72D /* VAlert.swift in Sources */,
 				DA83A7FD1ECA0ABA002AE72D /* VBorder.swift in Sources */,
 				DA83A8031ECA0ABA002AE72D /* VToast.swift in Sources */,
