@@ -10,10 +10,8 @@ class AppDelegate:UIResponder, UIApplicationDelegate
         didFinishLaunchingWithOptions
         launchOptions:[UIApplicationLaunchOptionsKey:Any]?) -> Bool
     {
-        FMain.sharedInstance.load()
-        
         let window:UIWindow = UIWindow(frame:UIScreen.main.bounds)
-        window.backgroundColor = UIColor.black
+        window.backgroundColor = UIColor.white
         window.makeKeyAndVisible()
         
         let parent:CParent = CParent()
@@ -25,6 +23,6 @@ class AppDelegate:UIResponder, UIApplicationDelegate
     
     func applicationWillEnterForeground(_ application:UIApplication)
     {
-        MSession.sharedInstance.settings?.addTtl()
+//        MSession.sharedInstance.settings?.addTtl()
     }
 }

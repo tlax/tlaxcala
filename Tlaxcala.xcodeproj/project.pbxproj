@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		DA83A7E81ECA0ABA002AE72D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA83A7C21ECA0ABA002AE72D /* LaunchScreen.storyboard */; };
-		DA83A7E91ECA0ABA002AE72D /* CAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83A7C41ECA0ABA002AE72D /* CAppDelegate.swift */; };
-		DA83A7EA1ECA0ABA002AE72D /* CController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83A7C51ECA0ABA002AE72D /* CController.swift */; };
-		DA83A7EB1ECA0ABA002AE72D /* CParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83A7C61ECA0ABA002AE72D /* CParent.swift */; };
 		DA83A7EC1ECA0ABA002AE72D /* ExtensionDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83A7C91ECA0ABA002AE72D /* ExtensionDictionary.swift */; };
 		DA83A7ED1ECA0ABA002AE72D /* ExtensionFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83A7CA1ECA0ABA002AE72D /* ExtensionFileManager.swift */; };
 		DA83A7EE1ECA0ABA002AE72D /* ExtensionMKAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83A7CB1ECA0ABA002AE72D /* ExtensionMKAnnotationView.swift */; };
@@ -36,13 +33,13 @@
 		DA83A8021ECA0ABA002AE72D /* VSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83A7E51ECA0ABA002AE72D /* VSpinner.swift */; };
 		DA83A8031ECA0ABA002AE72D /* VToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83A7E61ECA0ABA002AE72D /* VToast.swift */; };
 		DA83A8041ECA0ABA002AE72D /* VView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83A7E71ECA0ABA002AE72D /* VView.swift */; };
+		DA83A80A1ECA0D6E002AE72D /* CAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83A8071ECA0D6E002AE72D /* CAppDelegate.swift */; };
+		DA83A80B1ECA0D6E002AE72D /* CController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83A8081ECA0D6E002AE72D /* CController.swift */; };
+		DA83A80C1ECA0D6E002AE72D /* CParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA83A8091ECA0D6E002AE72D /* CParent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DA83A7C21ECA0ABA002AE72D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DA83A7C41ECA0ABA002AE72D /* CAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAppDelegate.swift; sourceTree = "<group>"; };
-		DA83A7C51ECA0ABA002AE72D /* CController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CController.swift; sourceTree = "<group>"; };
-		DA83A7C61ECA0ABA002AE72D /* CParent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CParent.swift; sourceTree = "<group>"; };
 		DA83A7C91ECA0ABA002AE72D /* ExtensionDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionDictionary.swift; sourceTree = "<group>"; };
 		DA83A7CA1ECA0ABA002AE72D /* ExtensionFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionFileManager.swift; sourceTree = "<group>"; };
 		DA83A7CB1ECA0ABA002AE72D /* ExtensionMKAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionMKAnnotationView.swift; sourceTree = "<group>"; };
@@ -68,6 +65,9 @@
 		DA83A7E51ECA0ABA002AE72D /* VSpinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSpinner.swift; sourceTree = "<group>"; };
 		DA83A7E61ECA0ABA002AE72D /* VToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VToast.swift; sourceTree = "<group>"; };
 		DA83A7E71ECA0ABA002AE72D /* VView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VView.swift; sourceTree = "<group>"; };
+		DA83A8071ECA0D6E002AE72D /* CAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAppDelegate.swift; sourceTree = "<group>"; };
+		DA83A8081ECA0D6E002AE72D /* CController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CController.swift; sourceTree = "<group>"; };
+		DA83A8091ECA0D6E002AE72D /* CParent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CParent.swift; sourceTree = "<group>"; };
 		DAA0A0281ECA07B200847E46 /* Tlaxcala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tlaxcala.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -93,9 +93,8 @@
 		DA83A7C31ECA0ABA002AE72D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				DA83A7C41ECA0ABA002AE72D /* CAppDelegate.swift */,
-				DA83A7C51ECA0ABA002AE72D /* CController.swift */,
-				DA83A7C61ECA0ABA002AE72D /* CParent.swift */,
+				DA83A8051ECA0D6E002AE72D /* Home */,
+				DA83A8061ECA0D6E002AE72D /* Main */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -171,6 +170,23 @@
 				DA83A7E51ECA0ABA002AE72D /* VSpinner.swift */,
 				DA83A7E61ECA0ABA002AE72D /* VToast.swift */,
 				DA83A7E71ECA0ABA002AE72D /* VView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		DA83A8051ECA0D6E002AE72D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DA83A8061ECA0D6E002AE72D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DA83A8071ECA0D6E002AE72D /* CAppDelegate.swift */,
+				DA83A8081ECA0D6E002AE72D /* CController.swift */,
+				DA83A8091ECA0D6E002AE72D /* CParent.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -283,17 +299,17 @@
 				DA83A7F21ECA0ABA002AE72D /* ExtensionString.swift in Sources */,
 				DA83A7ED1ECA0ABA002AE72D /* ExtensionFileManager.swift in Sources */,
 				DA83A7F11ECA0ABA002AE72D /* ExtensionNSManagedObject.swift in Sources */,
-				DA83A7E91ECA0ABA002AE72D /* CAppDelegate.swift in Sources */,
 				DA83A7EF1ECA0ABA002AE72D /* ExtensionNotification.swift in Sources */,
 				DA83A7FB1ECA0ABA002AE72D /* VAlert.swift in Sources */,
 				DA83A7FD1ECA0ABA002AE72D /* VBorder.swift in Sources */,
 				DA83A8031ECA0ABA002AE72D /* VToast.swift in Sources */,
 				DA83A7F51ECA0ABA002AE72D /* ExtensionUIFont.swift in Sources */,
-				DA83A7EA1ECA0ABA002AE72D /* CController.swift in Sources */,
+				DA83A80A1ECA0D6E002AE72D /* CAppDelegate.swift in Sources */,
 				DA83A8001ECA0ABA002AE72D /* VParent.swift in Sources */,
+				DA83A80B1ECA0D6E002AE72D /* CController.swift in Sources */,
+				DA83A80C1ECA0D6E002AE72D /* CParent.swift in Sources */,
 				DA83A7FC1ECA0ABA002AE72D /* VBlur.swift in Sources */,
 				DA83A7FF1ECA0ABA002AE72D /* VCollectionFlow.swift in Sources */,
-				DA83A7EB1ECA0ABA002AE72D /* CParent.swift in Sources */,
 				DA83A7F41ECA0ABA002AE72D /* ExtensionUIColor.swift in Sources */,
 				DA83A8041ECA0ABA002AE72D /* VView.swift in Sources */,
 				DA83A7F31ECA0ABA002AE72D /* ExtensionUICollectionReusableView.swift in Sources */,
